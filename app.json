@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "MovieGallery",
+    "slug": "MovieGallery",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#334D5C"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.dtembo965.MovieGallery"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    }
+  }
+}
